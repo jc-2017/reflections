@@ -1,0 +1,39 @@
+version control can be very useful.
+must get into the habit of using version control.
+helps to find the differences between files.
+To find the differences between files use:
+windows
+FC <file 1> <file 2>
+linux
+diff -u <file 1> <file  2>
+highlights the lines that have changed
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Easy to obtain old doc versions
+track the changes made to a file
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in git, vs having versions automatically saved, like Google docs does?
+
+pros
+flexability on when to create new commits
+
+cons
+commits may be to large or to small
+
+Why do you think some version control systems, like git, allow saving multiple files in one commit, while others, like google docs, treat each file seperately?
+
+Git understands that files can be related to each other when used for code.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log provides a list of changes, their id and description
+
+git diff compares two commits and highlights the changes between commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+You can easily revert to a previous version of the code, using the git checkout <changed id> command.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+to version Stored proc changes

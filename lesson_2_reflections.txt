@@ -5,3 +5,19 @@ git creates a hidden .git folder, which holds meta data that tracks the status o
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 its a holding area between repo and commits, you can select which files to include in the staging area. Can be a subset of the files held in the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add multiple files to the staging area, and then commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+experimental features, additional lanuage features.
+You can work on additonal features but maintain master branch. branches can be merged at a latter date.
+
+How do the diagrams help you visualize the branch structure?
+
+You can visualise the parent of each commit and see which commits are included in each branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+all the commits of each branch are contained in a single branch

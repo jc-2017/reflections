@@ -21,3 +21,8 @@ You can visualise the parent of each commit and see which commits are included i
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 all the commits of each branch are contained in a single branch
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+
+
